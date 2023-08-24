@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     color: white;
+    border-radius: 5px;
 }
 
 body {
@@ -18,7 +19,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: violet;
+    background: rgb(100,43,122);
+    background: linear-gradient(180deg, rgba(100,43,122,1) 9%, rgba(194,106,228,1) 100%);
 }
 
 section > * {
@@ -26,8 +28,10 @@ section > * {
 }
 
 .image {
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    margin-bottom: 15px;
     background: no-repeat center center url(./src/img/IMG_20230805_101247.jpg);
     background-size: cover;
 }

@@ -25,9 +25,11 @@ section > * {
     margin-bottom: 15px;
 }
 
-img {
-    width: 175px;
-    height: fit-content;
+.image {
+    width: 125px;
+    height: 125px;
+    background: no-repeat center center url(./src/img/IMG_20230805_101247.jpg);
+    background-size: cover;
 }
 
 .flexible.two {

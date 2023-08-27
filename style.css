@@ -6,8 +6,8 @@
     src: local('Material Icons'),
       local('MaterialIcons-Regular'),
       url(./src/font/) format('woff2'),
-      url(./src/font//MaterialIcons-Regular.woff) format('woff'),
-      url(./src/font//MaterialIcons-Regular.ttf) format('truetype');
+      url(./src/font/MaterialIcons-Regular.woff) format('woff'),
+      url(./src/font/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {

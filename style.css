@@ -75,9 +75,15 @@ section > * {
     background-size: cover;
 }
 
-.flexible.two {
+.title-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
+    gap: 25px;
+}
+
+.ui-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

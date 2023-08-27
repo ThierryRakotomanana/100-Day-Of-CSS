@@ -48,16 +48,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgb(100,43,122);
+    background: linear-gradient(45deg, rgb(49, 51, 56) 15%, rgb(48, 16, 61) 100%);
 }
 
 .container {
-    padding: 35px;
+    padding: 50px;
     gap: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background: rgb(100,43,122);
-    background: linear-gradient(180deg, rgba(100,43,122,1) 9%, rgba(194,106,228,1) 100%);
+    background: linear-gradient(180deg, rgb(14, 52, 155) 15%, rgb(175, 42, 228) 100%);
 }
 
 section > * {

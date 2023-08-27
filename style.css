@@ -67,8 +67,8 @@ section > * {
 }
 
 .image {
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
     margin: auto;
     margin-bottom: 15px;
     background: no-repeat center center url(./src/img/IMG_20230805_101247.jpg);
@@ -80,6 +80,10 @@ section > * {
     align-items: center;
     justify-content: space-between;
     gap: 25px;
+}
+
+.title-card > h2 {
+    font-size: 2rem;
 }
 
 .ui-icon {

@@ -219,6 +219,12 @@ section > * {
     font-size: 2rem;
 }
 
+.ui-song {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .ui-icon {
     display: flex;
     justify-content: center;

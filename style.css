@@ -255,13 +255,16 @@ section > * {
 }
 
 button {
-    background: transparent;
+    background: #ffffff1a;
     color: white;
     display: flex;
+    gap: 7.5px;
     align-items: center;
     padding-inline: 10px;
     padding-block: 5px;
-    border-radius: .4rem;
+    border: 0;
+    font-size: 12px;
+    border-radius: 25px;
 }
 
 section.second > h3 {

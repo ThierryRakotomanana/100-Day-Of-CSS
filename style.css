@@ -229,7 +229,7 @@ section > * {
     color: red;
 }
 
-.ui-icon {
+.ui-icon, .ui-american {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,9 +245,26 @@ section > * {
     font-size: 36px;
 }
 
+.ui-btn {
+    display: flex;
+    gap: 25px;
+}
+
 button {
     background: transparent;
-    color: black;
+    color: white;
     display: flex;
-    align-items: center
+    align-items: center;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: .4rem;
+}
+
+section.second > h3 {
+    margin-block: 25px;
+    font-size: 15px;
+}
+
+section.second > p {
+    font-size: 10px;
 }

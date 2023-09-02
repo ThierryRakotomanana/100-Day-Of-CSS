@@ -245,6 +245,10 @@ section > * {
     font-size: 36px;
 }
 
+.american-corner-logo {
+    width: 25px;
+}
+
 .ui-btn {
     display: flex;
     gap: 25px;

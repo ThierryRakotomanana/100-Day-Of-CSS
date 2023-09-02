@@ -237,3 +237,6 @@ section > * {
     justify-content: space-between;
 }
 
+.md-36 { 
+    font-size: 36px;
+}

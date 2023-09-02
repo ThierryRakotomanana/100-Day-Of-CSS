@@ -233,6 +233,7 @@ section > * {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .ui-control {
@@ -246,7 +247,7 @@ section > * {
 }
 
 .american-corner-logo {
-    width: 25px;
+    width: 75px;
 }
 
 .ui-btn {
@@ -267,9 +268,14 @@ button {
     border-radius: 25px;
 }
 
-section.second > h3 {
+section.second > h4 {
     margin-block: 25px;
     font-size: 15px;
+}
+
+section.second > h3 {
+    margin-block: 25px;
+    font-size: 40px;
 }
 
 section.second > p {

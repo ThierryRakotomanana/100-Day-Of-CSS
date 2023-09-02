@@ -225,6 +225,10 @@ section > * {
     justify-content: space-between;
 }
 
+.col-red {
+    color: red;
+}
+
 .ui-icon {
     display: flex;
     justify-content: center;
@@ -239,4 +243,11 @@ section > * {
 
 .md-36 { 
     font-size: 36px;
+}
+
+button {
+    background: transparent;
+    color: black;
+    display: flex;
+    align-items: center
 }

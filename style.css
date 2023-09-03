@@ -82,6 +82,14 @@ section > * {
     justify-content: space-between;
 }
 
+.ui-american > div > p {
+    font-size: 17px;
+}
+
+.ui-american > div > span {
+    font-weight: 700;
+}
+
 .md-36 { 
     font-size: 36px;
 }

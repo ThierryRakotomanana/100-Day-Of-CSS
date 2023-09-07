@@ -4,7 +4,6 @@
          url('../src/font/google-font/roboto-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 * {
@@ -12,6 +11,21 @@
     padding: 0;
     margin: 0;
     font-family: "Robotothin";
+}
+
+body {
+    color: #5e5e5e;
+}
+
+.container {
+    display: flex;
+    background: wheat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {

@@ -28,10 +28,31 @@ body {
     background-size: cover;
 }
 
+.profile-card {
+    position: relative;
+    margin: auto;
+    padding: 30px;
+    width: 550px;
+    height: 600px;
+    background-color: rgb(255, 255, 255, .4);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .1);
+    transition: height .5s ease;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
 img {
     width: 25px;
 }
 
 .profile-card-img img {
-    width: 250px;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
 }

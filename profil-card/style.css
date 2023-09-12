@@ -14,12 +14,12 @@
 }
 
 body {
-    color: #5e5e5e;
+    color: #ffffff;
 }
 
 .container {
     display: flex;
-    background: wheat;
+    background: linear-gradient(90deg, #300c5a 25% , #6378d6 100%) ;
     height: 100%;
     width: 100%;
     position: fixed;

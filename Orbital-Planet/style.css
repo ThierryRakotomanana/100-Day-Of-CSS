@@ -21,4 +21,25 @@ main {
     height: 75px;
     border-radius: 100%;
     background-color: rgb(255, 208, 0);
+    position: relative;
+    animation: orbit 6s linear 0s infinite forwards;
+}
+
+.circle {
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    background: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
